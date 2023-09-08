@@ -1,4 +1,4 @@
-FROM winstr/repo:ubuntu-trt
+FROM winstr/repo:ubuntu-trt-devel
 ENV DEBIAN_FRONTEND=noninteractive
 
 ENV PYENV_ROOT=/root/.pyenv
